@@ -310,18 +310,6 @@
   border-top-color: #b3b3b3
 }
 
-.megamenu iframe {
-  width: 100%;
-  margin-top: 10px;
-  min-height: 200px;
-}
-
-.megamenu video {
-  width: 100%;
-  margin-top: 10px;
-  min-height: 200px;
-}
-
 .wsmenu-list>li.socialicon {
   float: left;
 }
@@ -574,18 +562,6 @@
   font-size: 15px;
 }
 
-.carousel-control i.fa {
-  top: 48%;
-  position: absolute;
-  font-size: 33px;
-  margin-left: -5px;
-}
-
-.carousel-inner .carousel-caption h3 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
 .wsshopmenu span {
   font-weight: bold;
 }
@@ -646,30 +622,6 @@
   text-align: left;
   height: 39px;
   margin: 0px 0px 10px 0px;
-}
-
-.halfmenu {
-  width: 40%;
-  right: auto !important;
-  left: auto !important;
-}
-
-.halfmenu .megacollink {
-  width: 48%;
-  float: left;
-  margin: 0% 1%;
-}
-
-.halfdiv {
-  width: 30%;
-  right: auto;
-  left: auto;
-}
-
-.halfdiv03 {
-  width: 25%;
-  right: auto;
-  left: auto;
 }
 
 .wsshoptabing {
@@ -1070,50 +1022,6 @@
   z-index: 1;
 }
 
-.wstmenutag.redtag {
-  background-color: #fe7b8f;
-}
-
-.wstmenutag.redtag:after {
-  border-color: transparent #fe7b8f transparent transparent;
-}
-
-.wstmenutag.greentag {
-  background-color: #00c853;
-}
-
-.wstmenutag.greentag:after {
-  border-color: transparent #00c853 transparent transparent;
-}
-
-.wstmenutag.bluetag {
-  background-color: #4fc3f7;
-}
-
-.wstmenutag.bluetag:after {
-  border-color: transparent #4fc3f7 transparent transparent;
-}
-
-.wstmenutag.orangetag {
-  background-color: #FE7000;
-}
-
-.wstmenutag.orangetag:after {
-  border-color: transparent #FE7000 transparent transparent;
-}
-
-.kitchenmenuimg {
-  background-image: url(../images/kitchen-menu-img.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-}
-
-.computermenubg {
-  background-image: url(../images/computer-menu-img.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-}
-
 .wstpngsml {
   padding-left: 18px;
 }
@@ -1194,37 +1102,6 @@
   font-size: 17px;
 }
 
-.brandcolor01 {
-  color: #424242;
-}
-
-.brandcolor02 {
-  color: #00bcf2;
-}
-
-.brandcolor03 {
-  color: #00aff0;
-}
-
-.brandcolor04 {
-  color: #003087;
-}
-
-.brandcolor05 {
-  color: #a82400;
-}
-
-.brandcolor06 {
-  color: #ff3300;
-}
-
-.brandcolor07 {
-  color: #7ac142;
-}
-
-.brandcolor08 {
-  color: #ef4056;
-}
 
 /*--------------------------------------------------------------------------
 |  03 Tab CSS
@@ -1268,21 +1145,7 @@
   .wstadsize02 {
     margin-top: 10px;
   }
-  .wstadsize01 img {
-    width: 100%;
-  }
-  .wstadsize02 img {
-    width: 100%;
-  }
-  .wstliststy02>li>img {
-    display: none;
-  }
-  .wstliststy03 li {
-    width: 50%;
-  }
-  .wstliststy04>li>img {
-    width: 100%;
-  }
+  
   .wssearchbar {
     width: 31% !important;
   }
