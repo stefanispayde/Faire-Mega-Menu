@@ -1259,12 +1259,6 @@
     padding: 0px;
     margin: 0px;
   }
-  .megamenurightp {
-    width: 100%;
-    display: block;
-    padding: 0px;
-    margin: 0px;
-  }
   .wstabitem li a:after {
     position: absolute;
     content: '';
@@ -1361,10 +1355,6 @@
     box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
   }
-  /* .smallogo>img {
-    margin-top: 0px;
-    height: 32px;
-  } */
   .wsmenu-list>li:hover>a {
     background-color: rgba(0, 0, 0, 0.08) !important;
     text-decoration: none;
@@ -1470,26 +1460,12 @@
     float: right;
     text-align: center;
   }
-  .ws-activearrow>i {
-    transform: rotate(180deg);
-  }
   .wsmenu-rotate {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-  }
-  .animated-arrow {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 102;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
   }
   .wsoffcanvasopener .animated-arrow {
     left: 270px;
@@ -1499,53 +1475,7 @@
     padding: 13px 35px 16px 0px;
     margin: 10px 0 0 15px;
   }
-  .animated-arrow span, .animated-arrow span:before, .animated-arrow span:after {
-    cursor: pointer;
-    height: 2px;
-    width: 23px;
-    background: #424242;
-    position: absolute;
-    display: block;
-    content: '';
-  }
-  .animated-arrow span:before {
-    top: -7px;
-  }
-  .animated-arrow span:after {
-    bottom: -7px;
-  }
-  .animated-arrow span, .animated-arrow span:before, .animated-arrow span:after {
-    transition: all 500ms ease-in-out;
-  }
-  .wsoffcanvasopener .animated-arrow span {
-    background-color: transparent;
-  }
-  .wsoffcanvasopener .animated-arrow span:before, .animated-arrow.active span:after {
-    top: 7px;
-  }
-  .wsoffcanvasopener .animated-arrow span:before {
-    transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    bottom: 0px;
-  }
-  .wsoffcanvasopener .animated-arrow span:after {
-    transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  .megacollink {
-    width: 96% !important;
-    margin: 0% 2% !important;
-  }
-  .megacolimage {
-    width: 90% !important;
-    margin: 0% 5% !important;
-  }
+
   .typographylinks {
     width: 98% !important;
     margin: 0% 1% !important;
